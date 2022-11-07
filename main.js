@@ -1,9 +1,7 @@
-
-import * as THREE from 'three';
 import './style.css'
-import { AsciiEffect } from 'three/examples/jsm/effects/AsciiEffect.js';
-import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls.js';
-import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
+import { AsciiEffect } from './js/AsciiEffect.js';
+import { TrackballControls } from './js/TrackballControls.js';
+import { STLLoader } from './js/STLLoader.js';
 
 let camera, controls, scene, renderer, effect;
 let logo
